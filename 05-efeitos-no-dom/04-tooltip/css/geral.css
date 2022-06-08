@@ -231,14 +231,14 @@ body {
 }
 
 [data-js="tabcontent"] section.ativo.show-right {
-  animation: showRight .5s forwards;
+  animation: show-right .5s forwards;
 }
 
 [data-js="tabcontent"] section.ativo.show-down {
-  animation: showDown .5s forwards;
+  animation: show-down .5s forwards;
 }
 
-@keyframes showRight {
+@keyframes show-right {
   from {
     opacity: 0;
     transform: translate3d(-30px, 0, 0);
@@ -249,7 +249,7 @@ body {
   }
 }
 
-@keyframes showDown {
+@keyframes show-down {
   from {
     opacity: 0;
     transform: translate3d(0, -30px, 0);
