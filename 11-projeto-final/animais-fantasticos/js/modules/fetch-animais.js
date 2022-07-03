@@ -25,7 +25,7 @@ export default function fetchAnimais(url, target) {
   }
 
   // Puxa os animais através de um arquivo JSON
-  // E cria cada animal utilizando o createAnimaiç
+  // E cria cada animal utilizando o createAnimal
   async function criarAnimais() {
     try {
       // Fetch, espera a resposta e transforma em JSON
